@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: c1693bfa31c820243b7f5d15637d0efd
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - player: {fileID: 1312871747258907122, guid: 3cea9b99161661b4bb867f37c5c91c89, type: 3}
+  - spawnPoint: {instanceID: 0}
+  - roomCam: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
