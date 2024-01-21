@@ -1,521 +1,376 @@
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1704540129157023, "dur":346073, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1704540129503134, "dur":218, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1704540129503395, "dur":60, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
-,{ "pid":12345, "tid":0, "ts":1704540129503455, "dur":1424, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1704540129505054, "dur":82, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"Player" }}
-,{ "pid":12345, "tid":0, "ts":1704540129505166, "dur":75, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":0, "ts":1704540129505259, "dur":72, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":0, "ts":1704540129505347, "dur":200, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/globalgamemanagers.assets.resS" }}
-,{ "pid":12345, "tid":0, "ts":1704540129505567, "dur":51, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/level0" }}
-,{ "pid":12345, "tid":0, "ts":1704540129505685, "dur":218, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/resources.assets" }}
-,{ "pid":12345, "tid":0, "ts":1704540129505987, "dur":71, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":0, "ts":1704540129506075, "dur":180, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":0, "ts":1704540129506274, "dur":53, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":0, "ts":1704540129506338, "dur":167, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":0, "ts":1704540129506524, "dur":103, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":0, "ts":1704540129506639, "dur":168, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/boot.config" }}
-,{ "pid":12345, "tid":0, "ts":1704540129506840, "dur":67, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
-,{ "pid":12345, "tid":0, "ts":1704540129506924, "dur":172, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
-,{ "pid":12345, "tid":0, "ts":1704540129507185, "dur":169, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1704540129507373, "dur":50, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1704540129507665, "dur":130, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1704540129507815, "dur":120, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1704540129507956, "dur":51, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1704540129508018, "dur":55, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1704540129508084, "dur":170, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1704540129508274, "dur":54, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1704540129508339, "dur":52, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1704540129508402, "dur":181, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1704540129508603, "dur":50, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1704540129508723, "dur":197, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1704540129508999, "dur":44748, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1704540129553778, "dur":228, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1704540129554030, "dur":61, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1704540129554104, "dur":197, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1704540129554324, "dur":63, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1704540129554407, "dur":57, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1704540129554689, "dur":59, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1704540129554764, "dur":54, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1704540129554830, "dur":54, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1704540129554896, "dur":191, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1704540129555110, "dur":58, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1704540129555200, "dur":67, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1704540129555280, "dur":200, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1704540129555504, "dur":55, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1704540129555572, "dur":53, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1704540129555637, "dur":210, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1704540129555870, "dur":54, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1704540129555936, "dur":55, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.PropertiesModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1704540129556004, "dur":217, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1704540129556244, "dur":58, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1704540129556315, "dur":53, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1704540129556380, "dur":231, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1704540129556634, "dur":55, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1704540129556701, "dur":196, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1704540129556987, "dur":57, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1704540129557058, "dur":189, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1704540129557270, "dur":60, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1704540129557342, "dur":205, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1704540129557570, "dur":57, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1704540129557640, "dur":53, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1704540129557705, "dur":203, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1704540129557931, "dur":61, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1704540129558005, "dur":53, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1704540129558071, "dur":197, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1704540129558290, "dur":61, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1704540129558363, "dur":63, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1704540129558439, "dur":203, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1704540129558665, "dur":55, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1704540129558733, "dur":6783, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1704540129565546, "dur":224, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1704540129565800, "dur":82, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1704540129565903, "dur":756, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1704540129566918, "dur":65, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1704540129567000, "dur":155, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1704540129567172, "dur":55, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1704540129567256, "dur":199, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1704540129567478, "dur":56, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1704540129567547, "dur":197, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1704540129567767, "dur":130, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1704540129567914, "dur":58, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1704540129567985, "dur":55, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1704540129568052, "dur":55, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1704540129568119, "dur":207, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1704540129568348, "dur":57, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":0, "ts":1704540129568418, "dur":201, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":0, "ts":1704540129568642, "dur":55, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":0, "ts":1704540129568710, "dur":64, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":0, "ts":1704540129568787, "dur":198, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":0, "ts":1704540129569008, "dur":63, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/PhotonRealtime.dll" }}
-,{ "pid":12345, "tid":0, "ts":1704540129569083, "dur":62, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/PhotonChat.dll" }}
-,{ "pid":12345, "tid":0, "ts":1704540129569228, "dur":66, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":0, "ts":1704540129569308, "dur":57, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/PhotonUnityNetworking.dll" }}
-,{ "pid":12345, "tid":0, "ts":1704540129569377, "dur":57, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/PhotonUnityNetworking.Demos.dll" }}
-,{ "pid":12345, "tid":0, "ts":1704540129569447, "dur":249, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/PhotonUnityNetworking.Utilities.dll" }}
-,{ "pid":12345, "tid":0, "ts":1704540129569744, "dur":59, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":0, "ts":1704540129569816, "dur":215, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":0, "ts":1704540129570053, "dur":57, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/websocket-sharp.dll" }}
-,{ "pid":12345, "tid":0, "ts":1704540129570124, "dur":52, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":0, "ts":1704540129570188, "dur":55, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/Photon3Unity3D.dll" }}
-,{ "pid":12345, "tid":0, "ts":1704540129570254, "dur":199, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":0, "ts":1704540129570476, "dur":56, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":0, "ts":1704540129570565, "dur":59, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":0, "ts":1704540129570636, "dur":182, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":0, "ts":1704540129570833, "dur":54, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":0, "ts":1704540129570899, "dur":54, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":0, "ts":1704540129570964, "dur":207, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":0, "ts":1704540129571194, "dur":54, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":0, "ts":1704540129571261, "dur":54, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":0, "ts":1704540129571404, "dur":76, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":0, "ts":1704540129571494, "dur":60, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":0, "ts":1704540129571566, "dur":53, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":0, "ts":1704540129571631, "dur":54, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":0, "ts":1704540129571725, "dur":215, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":0, "ts":1704540129571962, "dur":57, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":0, "ts":1704540129572031, "dur":55, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":0, "ts":1704540129572098, "dur":221, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":0, "ts":1704540129572342, "dur":72, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":0, "ts":1704540129572482, "dur":175, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":0, "ts":1704540129572677, "dur":53, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":0, "ts":1704540129572799, "dur":178, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
-,{ "pid":12345, "tid":0, "ts":1704540129572997, "dur":56, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":0, "ts":1704540129573063, "dur":36607, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City.exe" }}
-,{ "pid":12345, "tid":0, "ts":1704540129609695, "dur":205, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":0, "ts":1704540129609920, "dur":52, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":0, "ts":1704540129610128, "dur":952, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":0, "ts":1704540129611105, "dur":150, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":0, "ts":1704540129611280, "dur":138, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":0, "ts":1704540129611433, "dur":56, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":0, "ts":1704540129611501, "dur":176, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":0, "ts":1704540129611726, "dur":99, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":0, "ts":1704540129611843, "dur":67, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":0, "ts":1704540129611925, "dur":230, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":0, "ts":1704540129612174, "dur":56, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":0, "ts":1704540129612241, "dur":164, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":0, "ts":1704540129612426, "dur":79, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":0, "ts":1704540129612521, "dur":133, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":0, "ts":1704540129612671, "dur":52, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":0, "ts":1704540129612787, "dur":194, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":0, "ts":1704540129612999, "dur":57, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":0, "ts":1704540129613067, "dur":181, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":0, "ts":1704540129613323, "dur":51, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion1/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":0, "ts":1704540129505017, "dur":108359, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1704540129613382, "dur":13789629, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1704540143403013, "dur":152, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1704540143403166, "dur":97, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1704540143403403, "dur":48599, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1704540129506636, "dur":106801, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1704540129613445, "dur":7550, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1704540130097252, "dur":192, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1704540130100602, "dur":54, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1704540130098941, "dur":108282, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
-,{ "pid":12345, "tid":1, "ts":1704540130207241, "dur":717, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1704540130207990, "dur":476, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":1, "ts":1704540130208470, "dur":445, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":1, "ts":1704540130208928, "dur":46948, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Unity\\2022.3.11f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1704540130255887, "dur":10344, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Unity\\2022.3.11f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1704540130266265, "dur":23398, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Unity\\2022.3.11f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1704540130289668, "dur":2044, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Unity\\2022.3.11f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1704540130291765, "dur":585, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Unity\\2022.3.11f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.ContentLoadModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1704540130292355, "dur":478, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Unity\\2022.3.11f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1704540130292841, "dur":435, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Unity\\2022.3.11f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1704540130293280, "dur":517, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Unity\\2022.3.11f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1704540130293838, "dur":542, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Unity\\2022.3.11f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1704540130294387, "dur":402, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Unity\\2022.3.11f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1704540130294793, "dur":637, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Unity\\2022.3.11f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1704540130295435, "dur":267, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Unity\\2022.3.11f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1704540130295732, "dur":191303, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Unity\\2022.3.11f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1704540130487153, "dur":608, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Unity\\2022.3.11f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1704540130487893, "dur":1650, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Unity\\2022.3.11f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1704540130489756, "dur":163703, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Pro\\SpongeBob-Riot In The City\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":1, "ts":1704540130653462, "dur":656940, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Pro\\SpongeBob-Riot In The City\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":1, "ts":1704540131310409, "dur":102243, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Pro\\SpongeBob-Riot In The City\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":1, "ts":1704540131412659, "dur":75351, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Pro\\SpongeBob-Riot In The City\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":1, "ts":1704540131488012, "dur":62525, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Pro\\SpongeBob-Riot In The City\\Library\\Bee\\PlayerScriptAssemblies\\PhotonRealtime.dll" }}
-,{ "pid":12345, "tid":1, "ts":1704540131550539, "dur":82573, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Pro\\SpongeBob-Riot In The City\\Library\\Bee\\PlayerScriptAssemblies\\PhotonChat.dll" }}
-,{ "pid":12345, "tid":1, "ts":1704540131633118, "dur":98790, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Pro\\SpongeBob-Riot In The City\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":1, "ts":1704540131731915, "dur":180074, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Pro\\SpongeBob-Riot In The City\\Library\\Bee\\PlayerScriptAssemblies\\PhotonUnityNetworking.dll" }}
-,{ "pid":12345, "tid":1, "ts":1704540131912000, "dur":98456, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Pro\\SpongeBob-Riot In The City\\Library\\Bee\\PlayerScriptAssemblies\\PhotonUnityNetworking.Demos.dll" }}
-,{ "pid":12345, "tid":1, "ts":1704540132010463, "dur":80565, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Pro\\SpongeBob-Riot In The City\\Library\\Bee\\PlayerScriptAssemblies\\PhotonUnityNetworking.Utilities.dll" }}
-,{ "pid":12345, "tid":1, "ts":1704540132091033, "dur":49766, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Pro\\SpongeBob-Riot In The City\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":1, "ts":1704540132140804, "dur":128728, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Pro\\SpongeBob-Riot In The City\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":1, "ts":1704540132269534, "dur":363191, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Pro\\SpongeBob-Riot In The City\\Assets\\Photon\\PhotonLibs\\WebSocket\\websocket-sharp.dll" }}
-,{ "pid":12345, "tid":1, "ts":1704540132632733, "dur":186311, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Pro\\SpongeBob-Riot In The City\\Library\\PackageCache\\com.unity.visualscripting@1.9.1\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\\Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":1, "ts":1704540132819052, "dur":220639, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Pro\\SpongeBob-Riot In The City\\Assets\\Photon\\PhotonLibs\\netstandard2.0\\Photon3Unity3D.dll" }}
-,{ "pid":12345, "tid":1, "ts":1704540133039693, "dur":201, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Unity\\2022.3.11f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\Facades\\netstandard.dll" }}
-,{ "pid":12345, "tid":1, "ts":1704540133039895, "dur":69324, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Unity\\2022.3.11f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\Mono.Security.dll" }}
-,{ "pid":12345, "tid":1, "ts":1704540133109221, "dur":53124, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Unity\\2022.3.11f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":1, "ts":1704540133162352, "dur":203492, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Unity\\2022.3.11f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Configuration.dll" }}
-,{ "pid":12345, "tid":1, "ts":1704540133365851, "dur":155376, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Unity\\2022.3.11f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Core.dll" }}
-,{ "pid":12345, "tid":1, "ts":1704540133521235, "dur":24541, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Unity\\2022.3.11f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":1, "ts":1704540133545782, "dur":1607380, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Unity\\2022.3.11f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Data.dll" }}
-,{ "pid":12345, "tid":1, "ts":1704540135153250, "dur":679, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\Playerb7aa922b-inputdata.json" }}
-,{ "pid":12345, "tid":1, "ts":1704540135153995, "dur":624817, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Unity\\2022.3.11f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.BuildTools.dll" }}
-,{ "pid":12345, "tid":1, "ts":1704540135778813, "dur":111947, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Unity\\2022.3.11f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.Core.dll" }}
-,{ "pid":12345, "tid":1, "ts":1704540135890767, "dur":734537, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Unity\\2022.3.11f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.CSharpSupport.dll" }}
-,{ "pid":12345, "tid":1, "ts":1704540136625313, "dur":1255947, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Unity\\2022.3.11f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.DotNet.dll" }}
-,{ "pid":12345, "tid":1, "ts":1704540137881268, "dur":1151, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Unity\\2022.3.11f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.NativeProgramSupport.dll" }}
-,{ "pid":12345, "tid":1, "ts":1704540137882427, "dur":1403766, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Unity\\2022.3.11f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.Stevedore.Program.exe" }}
-,{ "pid":12345, "tid":1, "ts":1704540139286202, "dur":41171, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Unity\\2022.3.11f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.TinyProfiler2.dll" }}
-,{ "pid":12345, "tid":1, "ts":1704540139327381, "dur":1032084, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Unity\\2022.3.11f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.Toolchain.GNU.dll" }}
-,{ "pid":12345, "tid":1, "ts":1704540140359473, "dur":418686, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Unity\\2022.3.11f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.Toolchain.LLVM.dll" }}
-,{ "pid":12345, "tid":1, "ts":1704540140778164, "dur":488626, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Unity\\2022.3.11f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.Toolchain.VisualStudio.dll" }}
-,{ "pid":12345, "tid":1, "ts":1704540141266796, "dur":227491, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Unity\\2022.3.11f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.Toolchain.Xcode.dll" }}
-,{ "pid":12345, "tid":1, "ts":1704540141494292, "dur":30602, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Unity\\2022.3.11f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.Tools.dll" }}
-,{ "pid":12345, "tid":1, "ts":1704540141524902, "dur":9381, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Unity\\2022.3.11f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.TundraBackend.dll" }}
-,{ "pid":12345, "tid":1, "ts":1704540141534289, "dur":623, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Unity\\2022.3.11f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.VisualStudioSolution.dll" }}
-,{ "pid":12345, "tid":1, "ts":1704540141534918, "dur":40219, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Unity\\2022.3.11f1\\Editor\\Data\\Tools\\BuildPipeline\\BeeBuildProgramCommon.Data.dll" }}
-,{ "pid":12345, "tid":1, "ts":1704540141575143, "dur":6758, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Unity\\2022.3.11f1\\Editor\\Data\\Tools\\BuildPipeline\\BeeBuildProgramCommon.dll" }}
-,{ "pid":12345, "tid":1, "ts":1704540141581907, "dur":57106, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Unity\\2022.3.11f1\\Editor\\Data\\Tools\\BuildPipeline\\BeeLocalCacheTool.exe" }}
-,{ "pid":12345, "tid":1, "ts":1704540141639020, "dur":249773, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Unity\\2022.3.11f1\\Editor\\Data\\Tools\\BuildPipeline\\Newtonsoft.Json.dll" }}
-,{ "pid":12345, "tid":1, "ts":1704540141888796, "dur":31035, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Unity\\2022.3.11f1\\Editor\\Data\\Tools\\BuildPipeline\\NiceIO.dll" }}
-,{ "pid":12345, "tid":1, "ts":1704540141919833, "dur":201, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Unity\\2022.3.11f1\\Editor\\Data\\Tools\\BuildPipeline\\PlayerBuildProgramLibrary.Data.dll" }}
-,{ "pid":12345, "tid":1, "ts":1704540141920035, "dur":189, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Unity\\2022.3.11f1\\Editor\\Data\\Tools\\BuildPipeline\\PlayerBuildProgramLibrary.dll" }}
-,{ "pid":12345, "tid":1, "ts":1704540141920226, "dur":36167, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Unity\\2022.3.11f1\\Editor\\Data\\Tools\\BuildPipeline\\ScriptCompilationBuildProgram.Data.dll" }}
-,{ "pid":12345, "tid":1, "ts":1704540141956399, "dur":1930, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Unity\\2022.3.11f1\\Editor\\Data\\Tools\\BuildPipeline\\ScriptCompilationBuildProgram.exe" }}
-,{ "pid":12345, "tid":1, "ts":1704540141958335, "dur":105053, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Unity\\2022.3.11f1\\Editor\\Data\\Tools\\BuildPipeline\\SharpYaml.dll" }}
-,{ "pid":12345, "tid":1, "ts":1704540142063393, "dur":261889, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Unity\\2022.3.11f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.Api.Attributes.dll" }}
-,{ "pid":12345, "tid":1, "ts":1704540142325288, "dur":245999, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Unity\\2022.3.11f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.Cecil.dll" }}
-,{ "pid":12345, "tid":1, "ts":1704540142571294, "dur":203541, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Unity\\2022.3.11f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.Cecil.Mdb.dll" }}
-,{ "pid":12345, "tid":1, "ts":1704540142774842, "dur":119341, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Unity\\2022.3.11f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.Cecil.Pdb.dll" }}
-,{ "pid":12345, "tid":1, "ts":1704540142894189, "dur":75736, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Unity\\2022.3.11f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.Cecil.Rocks.dll" }}
-,{ "pid":12345, "tid":1, "ts":1704540142969931, "dur":623, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Unity\\2022.3.11f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.IL2CPP.Api.dll" }}
-,{ "pid":12345, "tid":1, "ts":1704540142970559, "dur":668, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Unity\\2022.3.11f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.IL2CPP.Bee.BuildLogic.dll" }}
-,{ "pid":12345, "tid":1, "ts":1704540142971233, "dur":482, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Unity\\2022.3.11f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.IL2CPP.Bee.IL2CPPExeCompileCppBuildProgram.Data.dll" }}
-,{ "pid":12345, "tid":1, "ts":1704540142971720, "dur":467, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Unity\\2022.3.11f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.Linker.Api.dll" }}
-,{ "pid":12345, "tid":1, "ts":1704540142972192, "dur":63111, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Unity\\2022.3.11f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.Options.dll" }}
-,{ "pid":12345, "tid":1, "ts":1704540130207237, "dur":12828071, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1704540143035345, "dur":160, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1704540143035716, "dur":330910, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1704540143367720, "dur":34510, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1704540143367718, "dur":34514, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1704540143402249, "dur":705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/boot.config" }}
-,{ "pid":12345, "tid":2, "ts":1704540129507102, "dur":106530, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1704540129613641, "dur":1554, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1704540129615196, "dur":5853, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1704540129621167, "dur":3648676, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Unity\\2022.3.11f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":2, "ts":1704540129621055, "dur":3648793, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameVersion1/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":2, "ts":1704540133274942, "dur":52, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1704540133269916, "dur":5139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":2, "ts":1704540133275185, "dur":399145, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Unity\\2022.3.11f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Xml.dll" }}
-,{ "pid":12345, "tid":2, "ts":1704540133275177, "dur":399159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":2, "ts":1704540133714456, "dur":51, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1704540133674405, "dur":40166, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":2, "ts":1704540133714662, "dur":766108, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Unity\\2022.3.11f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":2, "ts":1704540133714653, "dur":766122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":2, "ts":1704540134485089, "dur":62, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1704540134480922, "dur":4297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":2, "ts":1704540134490230, "dur":54, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1704540134485355, "dur":4995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":2, "ts":1704540134490643, "dur":5149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":2, "ts":1704540134501406, "dur":62, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1704540134496075, "dur":5442, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/Managed/Photon3Unity3D.dll" }}
-,{ "pid":12345, "tid":2, "ts":1704540134697520, "dur":60, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1704540134501658, "dur":195997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":2, "ts":1704540134697864, "dur":5087, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/Managed/PhotonUnityNetworking.Demos.dll" }}
-,{ "pid":12345, "tid":2, "ts":1704540134703149, "dur":5875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":2, "ts":1704540134711094, "dur":5888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":2, "ts":1704540134717152, "dur":410728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1704540135128039, "dur":176937, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1704540135487448, "dur":51, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1704540135305135, "dur":182429, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1704540135487760, "dur":30039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1704540135517947, "dur":91, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1704540135518057, "dur":43222, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1704540135561445, "dur":24680, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1704540135586309, "dur":78, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1704540135586404, "dur":336496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1704540135923095, "dur":44020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1704540136014525, "dur":56, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1704540135967370, "dur":47268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1704540136632188, "dur":54, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1704540136014784, "dur":617523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":2, "ts":1704540136632481, "dur":94062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/globalgamemanagers.assets.resS" }}
-,{ "pid":12345, "tid":2, "ts":1704540136726626, "dur":6676367, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1704540129506856, "dur":106651, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1704540129613536, "dur":1723, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1704540129615261, "dur":5743, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1704540130097203, "dur":102, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1704540130099551, "dur":196266, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
-,{ "pid":12345, "tid":3, "ts":1704540130295824, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/app.info" }}
-,{ "pid":12345, "tid":3, "ts":1704540130296204, "dur":2567, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/app.info" }}
-,{ "pid":12345, "tid":3, "ts":1704540130298776, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameVersion1/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":3, "ts":1704540130299359, "dur":481318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":3, "ts":1704540130780960, "dur":327364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":3, "ts":1704540131108354, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameVersion1/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":3, "ts":1704540133923157, "dur":75, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1704540131108492, "dur":2814793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":3, "ts":1704540133923402, "dur":1281021, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Unity\\2022.3.11f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Data.dll" }}
-,{ "pid":12345, "tid":3, "ts":1704540133923396, "dur":1281032, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":3, "ts":1704540135204500, "dur":103453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":3, "ts":1704540135489115, "dur":50, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1704540135308192, "dur":181034, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1704540135506515, "dur":77, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1704540135489437, "dur":17275, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1704540135506974, "dur":18660, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1704540135525796, "dur":38304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1704540135564249, "dur":22665, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.PropertiesModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1704540135587115, "dur":4839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1704540135592058, "dur":280406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1704540135872594, "dur":14109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1704540135886835, "dur":3514, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1704540135890558, "dur":15191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1704540135905917, "dur":29746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1704540135993540, "dur":72, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1704540135935814, "dur":57863, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1704540136023346, "dur":69, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1704540135993861, "dur":29641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1704540136028121, "dur":72, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1704540136023829, "dur":4526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":3, "ts":1704540136033213, "dur":294, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1704540136028613, "dur":4951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":3, "ts":1704540137980576, "dur":67, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1704540136033802, "dur":1946888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":3, "ts":1704540137980775, "dur":5422244, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1704540129506999, "dur":106598, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1704540129613614, "dur":1473, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1704540129615088, "dur":5990, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1704540129621080, "dur":281, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameVersion1/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":4, "ts":1704540130097252, "dur":231, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1704540130620011, "dur":58, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1704540130101382, "dur":518752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":4, "ts":1704540130620234, "dur":232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameVersion1/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":4, "ts":1704540130621211, "dur":488310, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":4, "ts":1704540131109738, "dur":41052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":4, "ts":1704540131150849, "dur":1437334, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Unity\\2022.3.11f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":4, "ts":1704540131150839, "dur":1437349, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameVersion1/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":4, "ts":1704540132588758, "dur":4135, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":4, "ts":1704540132592984, "dur":485017, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Unity\\2022.3.11f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.dll" }}
-,{ "pid":12345, "tid":4, "ts":1704540132592979, "dur":485024, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":4, "ts":1704540133406876, "dur":52, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1704540133192911, "dur":214081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":4, "ts":1704540133407079, "dur":37094, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Unity\\2022.3.11f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":4, "ts":1704540133407073, "dur":37105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":4, "ts":1704540133444247, "dur":3833, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":4, "ts":1704540133448169, "dur":224333, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Unity\\2022.3.11f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":4, "ts":1704540133448164, "dur":224343, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":4, "ts":1704540133677283, "dur":52, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1704540133672574, "dur":4822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":4, "ts":1704540133677481, "dur":808365, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Unity\\2022.3.11f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":4, "ts":1704540133677475, "dur":808376, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":4, "ts":1704540134485931, "dur":5430, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":4, "ts":1704540134491526, "dur":5308, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":4, "ts":1704540134497019, "dur":5006, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/Managed/websocket-sharp.dll" }}
-,{ "pid":12345, "tid":4, "ts":1704540134502183, "dur":196955, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/Managed/PhotonUnityNetworking.Utilities.dll" }}
-,{ "pid":12345, "tid":4, "ts":1704540134699321, "dur":4958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/Managed/PhotonUnityNetworking.dll" }}
-,{ "pid":12345, "tid":4, "ts":1704540134704435, "dur":7024, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/Managed/PhotonRealtime.dll" }}
-,{ "pid":12345, "tid":4, "ts":1704540134711627, "dur":5468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":4, "ts":1704540134717255, "dur":420675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1704540135138087, "dur":178872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1704540135485953, "dur":62, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1704540135317109, "dur":168972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1704540135486260, "dur":21270, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1704540135507760, "dur":23961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1704540135531896, "dur":6320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1704540135538441, "dur":19394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1704540135557973, "dur":6636, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1704540135564765, "dur":284536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1704540135849344, "dur":21649, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1704540135871060, "dur":27852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1704540135962303, "dur":56, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1704540135899088, "dur":63337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1704540135962604, "dur":28305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1704540135991058, "dur":18363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1704540138444230, "dur":51, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1704540136009518, "dur":2434823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":4, "ts":1704540138444430, "dur":4958583, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1704540129507262, "dur":106401, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1704540129613677, "dur":1407, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1704540129615087, "dur":626, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1704540129615714, "dur":5341, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1704540129621113, "dur":507105, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Unity\\2022.3.11f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
-,{ "pid":12345, "tid":5, "ts":1704540129621057, "dur":507166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameVersion1/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":5, "ts":1704540130128857, "dur":167001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":5, "ts":1704540130295915, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameVersion1/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":5, "ts":1704540130296036, "dur":3626939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":5, "ts":1704540133923087, "dur":688405, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Unity\\2022.3.11f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Drawing.dll" }}
-,{ "pid":12345, "tid":5, "ts":1704540133923081, "dur":688415, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":5, "ts":1704540134611584, "dur":103965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":5, "ts":1704540134715642, "dur":52, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Unity\\2022.3.11f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.dll" }}
-,{ "pid":12345, "tid":5, "ts":1704540134715636, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":5, "ts":1704540134715758, "dur":417453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":5, "ts":1704540135133374, "dur":171268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1704540135489492, "dur":130, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1704540135305253, "dur":184434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1704540135489968, "dur":60490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1704540135561894, "dur":67, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1704540135550570, "dur":11467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1704540135562264, "dur":24574, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1704540135587101, "dur":276588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1704540135910387, "dur":54, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1704540135863787, "dur":46711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1704540135910739, "dur":123966, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1704540136045355, "dur":57, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1704540136034843, "dur":10634, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/resources.assets" }}
-,{ "pid":12345, "tid":5, "ts":1704540136633133, "dur":92, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1704540136045633, "dur":587813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/level0.resS" }}
-,{ "pid":12345, "tid":5, "ts":1704540136720805, "dur":55, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1704540136633666, "dur":87253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":5, "ts":1704540136721038, "dur":6681947, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1704540129507530, "dur":106155, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1704540129613699, "dur":1542, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1704540129615243, "dur":5826, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1704540129621073, "dur":259, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameVersion1/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":6, "ts":1704540130100692, "dur":937617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":6, "ts":1704540131038331, "dur":220102, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Unity\\2022.3.11f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\machine.config" }}
-,{ "pid":12345, "tid":6, "ts":1704540131038328, "dur":220107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameVersion1/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":6, "ts":1704540131258459, "dur":928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":6, "ts":1704540131259408, "dur":4357393, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Unity\\2022.3.11f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":6, "ts":1704540131259405, "dur":4357401, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameVersion1/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":6, "ts":1704540135616973, "dur":24463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":6, "ts":1704540135641598, "dur":253160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1704540135894909, "dur":13856, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1704540135909071, "dur":136919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1704540136046126, "dur":586711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/level0" }}
-,{ "pid":12345, "tid":6, "ts":1704540136720148, "dur":127, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1704540136633009, "dur":87377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":6, "ts":1704540136720675, "dur":6682316, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1704540129507731, "dur":105984, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1704540129613721, "dur":1644, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1704540129615366, "dur":5696, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1704540129621067, "dur":239, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameVersion1/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":7, "ts":1704540130097220, "dur":134, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1704540130100779, "dur":238983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":7, "ts":1704540130339827, "dur":188006, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Unity\\2022.3.11f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
-,{ "pid":12345, "tid":7, "ts":1704540130339822, "dur":188016, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameVersion1/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":7, "ts":1704540130527979, "dur":2766, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":7, "ts":1704540130530818, "dur":40830, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Unity\\2022.3.11f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
-,{ "pid":12345, "tid":7, "ts":1704540130530811, "dur":40841, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameVersion1/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":7, "ts":1704540130571724, "dur":33284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":7, "ts":1704540130605123, "dur":223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameVersion1/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":7, "ts":1704540130605413, "dur":3317983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":7, "ts":1704540133923546, "dur":3169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":7, "ts":1704540133926881, "dur":776311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":7, "ts":1704540134703412, "dur":6058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/Managed/PhotonChat.dll" }}
-,{ "pid":12345, "tid":7, "ts":1704540134709614, "dur":280297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":7, "ts":1704540134989961, "dur":136899, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1704540135304451, "dur":51, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1704540135127061, "dur":177490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1704540135304654, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1704540135489551, "dur":148, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1704540135304904, "dur":184861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1704540135489976, "dur":43865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1704540135533950, "dur":28495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1704540135562683, "dur":24115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1704540135587075, "dur":277330, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1704540135864470, "dur":48432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1704540135913061, "dur":87938, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1704540136001055, "dur":6370108, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Unity\\2022.3.11f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityPlayer.dll" }}
-,{ "pid":12345, "tid":7, "ts":1704540136001050, "dur":6370119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameVersion1/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":7, "ts":1704540142371236, "dur":39019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":7, "ts":1704540142410341, "dur":992688, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1704540129507886, "dur":105924, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1704540129613813, "dur":1603, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1704540129615418, "dur":5657, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1704540129621150, "dur":525563, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Unity\\2022.3.11f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
-,{ "pid":12345, "tid":8, "ts":1704540129621076, "dur":525641, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameVersion1/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":8, "ts":1704540130146864, "dur":144953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":8, "ts":1704540130291898, "dur":179799, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Unity\\2022.3.11f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
-,{ "pid":12345, "tid":8, "ts":1704540130291894, "dur":179804, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameVersion1/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":8, "ts":1704540130471735, "dur":754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":8, "ts":1704540130472732, "dur":147827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":8, "ts":1704540130620665, "dur":746039, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Unity\\2022.3.11f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config" }}
-,{ "pid":12345, "tid":8, "ts":1704540130620655, "dur":746053, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameVersion1/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":8, "ts":1704540131369709, "dur":90, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1704540131366772, "dur":3090, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":8, "ts":1704540131370021, "dur":3378, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp\\StagingArea\\WindowsPlayer.exe" }}
-,{ "pid":12345, "tid":8, "ts":1704540131370014, "dur":3389, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City.exe" }}
-,{ "pid":12345, "tid":8, "ts":1704540131373482, "dur":4609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City.exe" }}
-,{ "pid":12345, "tid":8, "ts":1704540131378200, "dur":159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":8, "ts":1704540132566059, "dur":50, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1704540131433715, "dur":1132439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":8, "ts":1704540132566230, "dur":435532, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Unity\\2022.3.11f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\mscorlib.dll" }}
-,{ "pid":12345, "tid":8, "ts":1704540132566225, "dur":435539, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":8, "ts":1704540133364065, "dur":58, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1704540133192936, "dur":171264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":8, "ts":1704540133364311, "dur":16083, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Unity\\2022.3.11f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":8, "ts":1704540133364304, "dur":16095, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":8, "ts":1704540133380538, "dur":2954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":8, "ts":1704540133383552, "dur":34507, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Unity\\2022.3.11f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Transactions.dll" }}
-,{ "pid":12345, "tid":8, "ts":1704540133383547, "dur":34517, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":8, "ts":1704540133418139, "dur":3079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":8, "ts":1704540133421287, "dur":154086, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Unity\\2022.3.11f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Security.dll" }}
-,{ "pid":12345, "tid":8, "ts":1704540133421282, "dur":154096, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":8, "ts":1704540133581268, "dur":56, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1704540133575467, "dur":5942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":8, "ts":1704540133581544, "dur":58854, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Unity\\2022.3.11f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Numerics.dll" }}
-,{ "pid":12345, "tid":8, "ts":1704540133581538, "dur":58865, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":8, "ts":1704540133640469, "dur":3076, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":8, "ts":1704540133643650, "dur":38509, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Unity\\2022.3.11f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Net.Http.dll" }}
-,{ "pid":12345, "tid":8, "ts":1704540133643642, "dur":38522, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":8, "ts":1704540133682242, "dur":3566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":8, "ts":1704540133685903, "dur":797170, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Unity\\2022.3.11f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":8, "ts":1704540133685896, "dur":797182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameVersion1/SpongeBob-Riot In The City_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":8, "ts":1704540134488311, "dur":59, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1704540134483146, "dur":5276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":8, "ts":1704540134488553, "dur":7314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":8, "ts":1704540134496091, "dur":5140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":8, "ts":1704540134501416, "dur":206713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":8, "ts":1704540134708295, "dur":7303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":8, "ts":1704540135303805, "dur":55, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1704540134715741, "dur":588196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1704540135316502, "dur":54, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1704540135304146, "dur":12534, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1704540135486794, "dur":56, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1704540135316892, "dur":170105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1704540135487197, "dur":30665, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1704540135517998, "dur":71, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1704540135518082, "dur":42814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1704540135585564, "dur":57, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1704540135561071, "dur":24638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1704540135585887, "dur":261724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1704540135847677, "dur":35261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1704540135883037, "dur":14811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1704540135898020, "dur":12747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1704540135910926, "dur":101254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1704540137984345, "dur":105, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1704540136012297, "dur":1972226, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion1/SpongeBob-Riot In The City_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":8, "ts":1704540137984677, "dur":5418310, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1704540143455005, "dur":1870, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid":12345, "tid":0, "ts":1704608078364146, "dur":121, "ph":"X", "name": "IPC_Client_InitializeAndConnectToParent",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704608078364427, "dur":248984, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704608078613420, "dur":76, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704608078613534, "dur":288, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704608078614011, "dur":93, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion2/SpongeBob-Riot In The City_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":0, "ts":1704608078614172, "dur":74, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":0, "ts":1704608078614298, "dur":72, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1704608078614544, "dur":83, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1704608078614868, "dur":73, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1704608078615046, "dur":63, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1704608078615176, "dur":32634, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1704608078647841, "dur":63, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1704608078647916, "dur":166, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1704608078648104, "dur":50, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1704608078648165, "dur":170, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1704608078648360, "dur":66, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1704608078648444, "dur":55, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1704608078648510, "dur":53, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1704608078648574, "dur":144, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1704608078648732, "dur":65, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1704608078648943, "dur":52, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1704608078649121, "dur":183, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1704608078649324, "dur":59, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1704608078649453, "dur":188, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1704608078649661, "dur":50, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1704608078649722, "dur":57, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1704608078649793, "dur":160, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1704608078649975, "dur":57, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1704608078650044, "dur":169, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1704608078650234, "dur":52, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1704608078650297, "dur":50, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1704608078650358, "dur":145, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1704608078650530, "dur":85, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1704608078650629, "dur":103, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1704608078650746, "dur":64, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1704608078650993, "dur":51, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1704608078651057, "dur":100, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1704608078651182, "dur":111, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1704608078651312, "dur":76, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1704608078651400, "dur":195, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1704608078651615, "dur":51, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1704608078651677, "dur":54, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1704608078651742, "dur":192, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1704608078652072, "dur":178, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1704608078652269, "dur":56, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":0, "ts":1704608078652395, "dur":195, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion2/SpongeBob-Riot In The City_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":0, "ts":1704608078652610, "dur":51, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":0, "ts":1704608078652729, "dur":59, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion2/SpongeBob-Riot In The City_Data/Managed/PhotonRealtime.dll" }}
+,{ "pid":12345, "tid":0, "ts":1704608078652799, "dur":196, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion2/SpongeBob-Riot In The City_Data/Managed/PhotonChat.dll" }}
+,{ "pid":12345, "tid":0, "ts":1704608078653204, "dur":56, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion2/SpongeBob-Riot In The City_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":0, "ts":1704608078653333, "dur":186, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion2/SpongeBob-Riot In The City_Data/Managed/PhotonUnityNetworking.Demos.dll" }}
+,{ "pid":12345, "tid":0, "ts":1704608078653539, "dur":52, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion2/SpongeBob-Riot In The City_Data/Managed/PhotonUnityNetworking.Utilities.dll" }}
+,{ "pid":12345, "tid":0, "ts":1704608078653602, "dur":131, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion2/SpongeBob-Riot In The City_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":0, "ts":1704608078653746, "dur":65, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion2/SpongeBob-Riot In The City_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":0, "ts":1704608078653822, "dur":52, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion2/SpongeBob-Riot In The City_Data/Managed/websocket-sharp.dll" }}
+,{ "pid":12345, "tid":0, "ts":1704608078653886, "dur":213, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion2/SpongeBob-Riot In The City_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":0, "ts":1704608078654118, "dur":61, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion2/SpongeBob-Riot In The City_Data/Managed/Photon3Unity3D.dll" }}
+,{ "pid":12345, "tid":0, "ts":1704608078654248, "dur":198, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion2/SpongeBob-Riot In The City_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":0, "ts":1704608078654525, "dur":61, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion2/SpongeBob-Riot In The City_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":0, "ts":1704608078654596, "dur":198, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion2/SpongeBob-Riot In The City_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":0, "ts":1704608078654816, "dur":57, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion2/SpongeBob-Riot In The City_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":0, "ts":1704608078654885, "dur":184, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion2/SpongeBob-Riot In The City_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":0, "ts":1704608078655089, "dur":55, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion2/SpongeBob-Riot In The City_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":0, "ts":1704608078655156, "dur":64, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion2/SpongeBob-Riot In The City_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":0, "ts":1704608078655332, "dur":74, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion2/SpongeBob-Riot In The City_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":0, "ts":1704608078655426, "dur":70, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion2/SpongeBob-Riot In The City_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":0, "ts":1704608078655511, "dur":216, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion2/SpongeBob-Riot In The City_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":0, "ts":1704608078655757, "dur":71, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion2/SpongeBob-Riot In The City_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":0, "ts":1704608078655840, "dur":111, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion2/SpongeBob-Riot In The City_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":0, "ts":1704608078655967, "dur":189, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion2/SpongeBob-Riot In The City_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":0, "ts":1704608078656182, "dur":56, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion2/SpongeBob-Riot In The City_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":0, "ts":1704608078656251, "dur":198, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion2/SpongeBob-Riot In The City_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":0, "ts":1704608078656472, "dur":57, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion2/SpongeBob-Riot In The City_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":0, "ts":1704608078656542, "dur":100, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion2/SpongeBob-Riot In The City_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":0, "ts":1704608078656716, "dur":123, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion2/SpongeBob-Riot In The City_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":0, "ts":1704608078656871, "dur":51, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion2/SpongeBob-Riot In The City_Data/app.info" }}
+,{ "pid":12345, "tid":0, "ts":1704608078656935, "dur":155, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":0, "ts":1704608078657167, "dur":165, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion2/SpongeBob-Riot In The City.exe" }}
+,{ "pid":12345, "tid":0, "ts":1704608078657410, "dur":59, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion2/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":0, "ts":1704608078657480, "dur":164, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion2/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":0, "ts":1704608078657727, "dur":109, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion2/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":0, "ts":1704608078657962, "dur":169, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion2/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":0, "ts":1704608078658151, "dur":51, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion2/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":0, "ts":1704608078658213, "dur":55, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion2/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":0, "ts":1704608078658278, "dur":147, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion2/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":0, "ts":1704608078658441, "dur":50, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion2/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":0, "ts":1704608078658556, "dur":173, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion2/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":0, "ts":1704608078658749, "dur":51, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion2/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":0, "ts":1704608078658810, "dur":51, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion2/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":0, "ts":1704608078658870, "dur":64, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion2/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":0, "ts":1704608078658943, "dur":170, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion2/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":0, "ts":1704608078659188, "dur":50, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion2/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":0, "ts":1704608078659248, "dur":170, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion2/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":0, "ts":1704608078659498, "dur":168, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles GameVersion2/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":0, "ts":1704608078613853, "dur":45817, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704608078659676, "dur":16074407, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704608094734084, "dur":189, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704608094734274, "dur":84, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704608094734489, "dur":2372860, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1704608078614585, "dur":45309, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1704608078659908, "dur":1567, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1704608078661477, "dur":6175, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1704608078667794, "dur":8849, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Unity\\2022.3.11f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1704608078667681, "dur":8969, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameVersion2/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1704608078740638, "dur":210, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1704608078850562, "dur":64, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1704608078741425, "dur":109268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1704608078850797, "dur":160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameVersion2/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1704608078851029, "dur":18824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1704608078869963, "dur":151, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Unity\\2022.3.11f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
+,{ "pid":12345, "tid":1, "ts":1704608078869955, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameVersion2/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1704608078870585, "dur":593185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1704608079463807, "dur":61, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Unity\\2022.3.11f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1704608079463803, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameVersion2/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1704608079463899, "dur":3228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1704608079467183, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameVersion2/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1704608079467846, "dur":555302, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1704608080023648, "dur":225748, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1704608080249515, "dur":29623, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1704608080279321, "dur":32135, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1704608080334533, "dur":53, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1704608080311581, "dur":23074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1704608080334825, "dur":14641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1704608080349658, "dur":593847, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1704608081037876, "dur":54, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1704608080943595, "dur":94391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1704608081038145, "dur":49008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1704608081087299, "dur":696127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1704608081783615, "dur":177685, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/Managed/PhotonRealtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1704608081961336, "dur":797736, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1704608082759109, "dur":449692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1704608083208839, "dur":374497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1704608083583514, "dur":50805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1704608083666977, "dur":52, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1704608083634494, "dur":32603, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1704608083667272, "dur":41073, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1704608083708467, "dur":265190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1704608083973694, "dur":647117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1704608084620935, "dur":761741, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1704608085382811, "dur":321802, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1704608091435730, "dur":54, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1704608085704721, "dur":5731129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1704608091436078, "dur":3298008, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1704608078614499, "dur":45257, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1704608078659765, "dur":7871, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1704608078740643, "dur":258, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1704608078743562, "dur":63, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1704608078741747, "dur":2398, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":2, "ts":1704608078744173, "dur":1301, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1704608078745531, "dur":1718, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1704608078747258, "dur":61249, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1704608078808521, "dur":1102, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Unity\\2022.3.11f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1704608078809630, "dur":455, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Unity\\2022.3.11f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1704608078810189, "dur":420, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Unity\\2022.3.11f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1704608078810664, "dur":455, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Unity\\2022.3.11f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1704608078811143, "dur":407, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Unity\\2022.3.11f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1704608078811588, "dur":350, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Unity\\2022.3.11f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1704608078811984, "dur":409, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Unity\\2022.3.11f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1704608078812420, "dur":390, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Unity\\2022.3.11f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1704608078812882, "dur":407, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Unity\\2022.3.11f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1704608078813612, "dur":165530, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Pro\\SpongeBob-Riot In The City\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1704608078979149, "dur":137680, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Pro\\SpongeBob-Riot In The City\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1704608079116839, "dur":67363, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Pro\\SpongeBob-Riot In The City\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1704608079184208, "dur":42832, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Pro\\SpongeBob-Riot In The City\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1704608079227047, "dur":44208, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Pro\\SpongeBob-Riot In The City\\Library\\Bee\\PlayerScriptAssemblies\\PhotonRealtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1704608079271263, "dur":45435, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Pro\\SpongeBob-Riot In The City\\Library\\Bee\\PlayerScriptAssemblies\\PhotonChat.dll" }}
+,{ "pid":12345, "tid":2, "ts":1704608079316706, "dur":39709, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Pro\\SpongeBob-Riot In The City\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1704608079356418, "dur":180232, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Pro\\SpongeBob-Riot In The City\\Library\\Bee\\PlayerScriptAssemblies\\PhotonUnityNetworking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1704608079536655, "dur":259774, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Pro\\SpongeBob-Riot In The City\\Library\\Bee\\PlayerScriptAssemblies\\PhotonUnityNetworking.Demos.dll" }}
+,{ "pid":12345, "tid":2, "ts":1704608079796432, "dur":27580, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Pro\\SpongeBob-Riot In The City\\Library\\Bee\\PlayerScriptAssemblies\\PhotonUnityNetworking.Utilities.dll" }}
+,{ "pid":12345, "tid":2, "ts":1704608079824017, "dur":92714, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Pro\\SpongeBob-Riot In The City\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1704608079916737, "dur":60338, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Pro\\SpongeBob-Riot In The City\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1704608079977348, "dur":799, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\Playere26530b0-inputdata.json" }}
+,{ "pid":12345, "tid":2, "ts":1704608078744165, "dur":1234296, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1704608079979723, "dur":203, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1704608080408412, "dur":4498316, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1704608084909024, "dur":216, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1704608084909022, "dur":219, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameVersion2/SpongeBob-Riot In The City_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1704608084909264, "dur":1010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1704608085417114, "dur":63, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1704608084910295, "dur":506954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1704608085417452, "dur":1159312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1704608086576821, "dur":133718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1704608086710616, "dur":8023457, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1704608078614575, "dur":45248, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1704608078659872, "dur":1573, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1704608078661448, "dur":6312, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1704608078667762, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameVersion2/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1704608078908979, "dur":53, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1704608078745971, "dur":163132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1704608078909213, "dur":200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameVersion2/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1704608078909576, "dur":515369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1704608079425006, "dur":54, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Unity\\2022.3.11f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config" }}
+,{ "pid":12345, "tid":3, "ts":1704608079425002, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameVersion2/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1704608079425506, "dur":590155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1704608080015762, "dur":51, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp\\StagingArea\\WindowsPlayer.exe" }}
+,{ "pid":12345, "tid":3, "ts":1704608080015758, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameVersion2/SpongeBob-Riot In The City.exe" }}
+,{ "pid":12345, "tid":3, "ts":1704608080015878, "dur":3814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City.exe" }}
+,{ "pid":12345, "tid":3, "ts":1704608080019762, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameVersion2/SpongeBob-Riot In The City_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1704608080020522, "dur":3064961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1704608083085642, "dur":453238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1704608083593493, "dur":55, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1704608083539073, "dur":54538, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1704608083593799, "dur":85633, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1704608083679562, "dur":19707, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1704608083699428, "dur":13455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1704608083748228, "dur":53, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1704608083713001, "dur":35342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1704608083748506, "dur":1158311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1704608084906895, "dur":506110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1704608085413143, "dur":8319687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1704608093732911, "dur":1001164, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1704608078614827, "dur":45164, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1704608078660002, "dur":1419, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1704608078661426, "dur":596, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1704608078662023, "dur":5659, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1704608078667687, "dur":256, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameVersion2/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1704608078740632, "dur":305, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1704608078744921, "dur":3226270, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1704608081971231, "dur":774560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1704608082745845, "dur":463240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1704608083582641, "dur":51, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1704608083209127, "dur":373639, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1704608083582946, "dur":75374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1704608083658583, "dur":17072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1704608083675780, "dur":42497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1704608083737059, "dur":65, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1704608083718408, "dur":19063, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1704608083737632, "dur":236365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1704608083974034, "dur":644398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1704608084618539, "dur":796762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1704608093728316, "dur":63, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1704608085415509, "dur":8312938, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1704608093728518, "dur":1005604, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1704608078614674, "dur":45250, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1704608078659933, "dur":2101, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1704608078662035, "dur":5630, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1704608078667825, "dur":75713, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Unity\\2022.3.11f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1704608078667682, "dur":75864, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameVersion2/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1704608078743589, "dur":69, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1704608078746101, "dur":287048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1704608079033255, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameVersion2/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1704608079033437, "dur":432091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1704608079465581, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameVersion2/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1704608079465688, "dur":563738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1704608080029608, "dur":115593, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704608080145307, "dur":817935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704608080963353, "dur":103577, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704608081067103, "dur":15921, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704608081083304, "dur":108772, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/Managed/Photon3Unity3D.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704608081192103, "dur":581, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704608081192704, "dur":638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704608081193362, "dur":516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/Managed/PhotonUnityNetworking.Utilities.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704608081193898, "dur":579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/Managed/PhotonUnityNetworking.Demos.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704608081194499, "dur":512, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/Managed/PhotonUnityNetworking.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704608081195031, "dur":764043, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704608081959114, "dur":1523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704608081960678, "dur":7255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704608081967969, "dur":789440, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704608082757442, "dur":143437, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704608082901097, "dur":640294, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704608083634016, "dur":57, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1704608083541825, "dur":92317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704608083634325, "dur":33265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704608083667773, "dur":31545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704608083742616, "dur":52, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1704608083699482, "dur":43257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704608083742893, "dur":230700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704608083973625, "dur":681430, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704608084655169, "dur":251662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704608084906922, "dur":485751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704608085392782, "dur":318227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704608085711118, "dur":1079115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/resources.assets" }}
+,{ "pid":12345, "tid":5, "ts":1704608086790378, "dur":7943679, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1704608078614751, "dur":45206, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1704608078659970, "dur":1499, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1704608078661470, "dur":6218, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1704608078667910, "dur":8837, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Unity\\2022.3.11f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
+,{ "pid":12345, "tid":6, "ts":1704608078667689, "dur":9064, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameVersion2/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1704608078740638, "dur":53, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1704608078745935, "dur":123782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1704608078869796, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameVersion2/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1704608079983296, "dur":58, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1704608078870615, "dur":1112806, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1704608079983525, "dur":160, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Unity\\2022.3.11f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":6, "ts":1704608079983516, "dur":174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameVersion2/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":6, "ts":1704608079983855, "dur":1195727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":6, "ts":1704608081179614, "dur":780469, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/Managed/websocket-sharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1704608081960144, "dur":1429, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1704608081961606, "dur":807700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1704608082769337, "dur":773187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1704608083542687, "dur":49116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1704608083592062, "dur":80262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1704608083672480, "dur":13306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1704608083705248, "dur":50, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1704608083686007, "dur":19345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1704608083705474, "dur":23062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1704608083746978, "dur":58, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1704608083728682, "dur":18435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1704608083747317, "dur":226295, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1704608083973667, "dur":650138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1704608085425115, "dur":58, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1704608084624010, "dur":801254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1704608085425620, "dur":795042, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":6, "ts":1704608086220701, "dur":193134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1704608086413884, "dur":1119243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1704608087533162, "dur":7200894, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1704608078614898, "dur":45143, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1704608078660043, "dur":1481, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1704608078661526, "dur":6117, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1704608078667716, "dur":9150, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1704608078740622, "dur":112, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1704608078742657, "dur":26741, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/app.info" }}
+,{ "pid":12345, "tid":7, "ts":1704608078769414, "dur":164, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Unity\\2022.3.11f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1704608078769405, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameVersion2/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1704608078769719, "dur":189203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1704608078958993, "dur":96, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Unity\\2022.3.11f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1704608078958987, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameVersion2/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1704608078959148, "dur":548653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1704608079507856, "dur":106, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Unity\\2022.3.11f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":7, "ts":1704608079507850, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameVersion2/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":7, "ts":1704608079508377, "dur":1008349, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":7, "ts":1704608080996948, "dur":51, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1704608080516789, "dur":480351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":7, "ts":1704608080997305, "dur":13674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1704608081011125, "dur":65199, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1704608081781324, "dur":59, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1704608081076438, "dur":705015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":7, "ts":1704608081781644, "dur":177790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/Managed/PhotonChat.dll" }}
+,{ "pid":12345, "tid":7, "ts":1704608081959465, "dur":1457, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1704608081960961, "dur":802433, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1704608082763430, "dur":780057, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1704608083591243, "dur":54, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1704608083543640, "dur":47726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1704608083591555, "dur":49329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1704608083641037, "dur":59065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1704608083700332, "dur":29373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1704608083729825, "dur":243838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1704608085408428, "dur":53, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1704608083973702, "dur":1434832, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1704608085408634, "dur":128, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Unity\\2022.3.11f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityPlayer.dll" }}
+,{ "pid":12345, "tid":7, "ts":1704608085408627, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameVersion2/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":7, "ts":1704608085408808, "dur":9325195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1704608078614863, "dur":45153, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1704608078660025, "dur":1456, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1704608078661482, "dur":6189, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1704608078667682, "dur":227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameVersion2/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":8, "ts":1704608079324681, "dur":56, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1704608078745118, "dur":579679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":8, "ts":1704608079324900, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameVersion2/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1704608079325605, "dur":101238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1704608079426880, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameVersion2/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1704608079427151, "dur":595616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1704608080023567, "dur":157650, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":8, "ts":1704608080181339, "dur":51496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1704608080233001, "dur":25569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":8, "ts":1704608080258688, "dur":814350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":8, "ts":1704608081073195, "dur":1736556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1704608082809784, "dur":731728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1704608083541715, "dur":96006, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1704608083642985, "dur":62, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1704608083637879, "dur":5239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1704608083686953, "dur":51, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1704608083643297, "dur":43769, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1704608083687247, "dur":38557, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1704608083725928, "dur":247657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1704608083973625, "dur":933200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1704608084906923, "dur":520912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1704608085427974, "dur":93, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1704608085428164, "dur":787899, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":8, "ts":1704608086216253, "dur":360556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/level0.resS" }}
+,{ "pid":12345, "tid":8, "ts":1704608086576890, "dur":121026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameVersion2/SpongeBob-Riot In The City_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":8, "ts":1704608086697989, "dur":8036087, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704608102202288, "dur":67126, "ph":"X", "name": "ProfilerWriteOutput" }
 ,

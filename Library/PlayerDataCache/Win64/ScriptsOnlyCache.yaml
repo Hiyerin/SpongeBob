@@ -1,14 +1,20 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp:
+    - Health
     - MouseLook
     - Movement
     - PlayerSetup
+    - Sway
+    - Weapon
     Assembly-CSharp.dll:
+    - Health
     - MouseLook
     - Movement
     - PlayerSetup
     - RoomManager
+    - Sway
+    - Weapon
     PhotonUnityNetworking:
     - Photon.Pun.PhotonAnimatorView
     - Photon.Pun.PhotonRigidbodyView
@@ -38,6 +44,7 @@ ScriptsOnlyBuild:
     - TMPro.TMP_Settings
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
+    - TMPro.TextMeshProUGUI
     Unity.TextMeshPro.dll:
     - TMPro.TMP_FontAsset
     - TMPro.TMP_Settings
@@ -55,6 +62,8 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
     UnityEngine.UI:
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
     - UnityEngine.UI.Shadow
     - UnityEngine.UI.Slider
@@ -64,6 +73,7 @@ ScriptsOnlyBuild:
     - UnityEngine.EventSystems.StandaloneInputModule
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.Image
   serializedClasses:
     PhotonRealtime:
     - Photon.Realtime.AppSettings
@@ -148,49 +158,55 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 16646}
     - Class: 114
-      Script: {instanceID: 16700}
+      Script: {instanceID: 16648}
     - Class: 114
-      Script: {instanceID: 16744}
+      Script: {instanceID: 16702}
     - Class: 114
-      Script: {instanceID: 16868}
+      Script: {instanceID: 16746}
     - Class: 114
-      Script: {instanceID: 16902}
+      Script: {instanceID: 16870}
     - Class: 114
-      Script: {instanceID: 17316}
+      Script: {instanceID: 16904}
     - Class: 114
-      Script: {instanceID: 17770}
+      Script: {instanceID: 17318}
     - Class: 114
-      Script: {instanceID: 17984}
+      Script: {instanceID: 17772}
     - Class: 114
-      Script: {instanceID: 18198}
+      Script: {instanceID: 17986}
     - Class: 114
-      Script: {instanceID: 18440}
+      Script: {instanceID: 18200}
     - Class: 114
-      Script: {instanceID: 19040}
+      Script: {instanceID: 18442}
     - Class: 114
-      Script: {instanceID: 19046}
+      Script: {instanceID: 18632}
     - Class: 114
-      Script: {instanceID: 19212}
+      Script: {instanceID: 19042}
     - Class: 114
-      Script: {instanceID: 19236}
+      Script: {instanceID: 19048}
     - Class: 114
-      Script: {instanceID: 19350}
+      Script: {instanceID: 19214}
     - Class: 114
-      Script: {instanceID: 19612}
+      Script: {instanceID: 19238}
     - Class: 114
-      Script: {instanceID: 20292}
+      Script: {instanceID: 19352}
     - Class: 114
-      Script: {instanceID: 20308}
+      Script: {instanceID: 19614}
     - Class: 114
-      Script: {instanceID: 20342}
+      Script: {instanceID: 20034}
     - Class: 114
-      Script: {instanceID: 20368}
+      Script: {instanceID: 20294}
     - Class: 114
-      Script: {instanceID: 20718}
+      Script: {instanceID: 20310}
     - Class: 114
-      Script: {instanceID: 20760}
+      Script: {instanceID: 20344}
     - Class: 114
-      Script: {instanceID: 20950}
+      Script: {instanceID: 20370}
+    - Class: 114
+      Script: {instanceID: 20640}
+    - Class: 114
+      Script: {instanceID: 20720}
+    - Class: 114
+      Script: {instanceID: 20762}
     - Class: 114
       Script: {instanceID: 21102}
     - Class: 114
@@ -210,7 +226,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 23334}
     - Class: 114
-      Script: {instanceID: 27262}
+      Script: {instanceID: 34448}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -254,6 +270,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: Text
+  - hash:
+      serializedVersion: 2
+      Hash: 6a356b04c25c0bb008c1b24bf8b0f996
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: CanvasScaler
   - hash:
       serializedVersion: 2
       Hash: 0b7995e6c59201aa9b4ad6a0aecb4621
@@ -1504,12 +1526,6 @@ ScriptsOnlyBuild:
     className: InfosPanelPlaceholder
   - hash:
       serializedVersion: 2
-      Hash: 6a356b04c25c0bb008c1b24bf8b0f996
-    assemblyName: UnityEngine.UI
-    namespaceName: UnityEngine.UI
-    className: CanvasScaler
-  - hash:
-      serializedVersion: 2
       Hash: 925a889a282ea89c4d9bd41afd22e4c2
     assemblyName: Assembly-CSharp
     namespaceName: TMPro.Examples
@@ -2195,5 +2211,5 @@ ScriptsOnlyBuild:
   platform: 19
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: G:/Pro/SpongeBob-Riot In The City/GameVersion1/SpongeBob-Riot In The
+  playerPath: G:/Pro/SpongeBob-Riot In The City/GameVersion2/SpongeBob-Riot In The
     City.exe
