@@ -392,6 +392,8 @@
 "Assets/Scripts/RoomManager.cs"
 "Assets/Scripts/Sway.cs"
 "Assets/Scripts/Weapon.cs"
+"Assets/Scripts/Weapon2.cs"
+"Assets/Scripts/WeaponSwitcher.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs"

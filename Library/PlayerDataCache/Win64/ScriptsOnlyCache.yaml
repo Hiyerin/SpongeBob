@@ -7,6 +7,8 @@ ScriptsOnlyBuild:
     - PlayerSetup
     - Sway
     - Weapon
+    - Weapon2
+    - WeaponSwitcher
     Assembly-CSharp.dll:
     - Health
     - MouseLook
@@ -15,6 +17,8 @@ ScriptsOnlyBuild:
     - RoomManager
     - Sway
     - Weapon
+    - Weapon2
+    - WeaponSwitcher
     PhotonUnityNetworking:
     - Photon.Pun.PhotonAnimatorView
     - Photon.Pun.PhotonRigidbodyView
@@ -155,6 +159,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
+    - Class: 111
+      Script: {instanceID: 0}
     - Class: 114
       Script: {instanceID: 16646}
     - Class: 114
@@ -170,63 +176,67 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 17318}
     - Class: 114
-      Script: {instanceID: 17772}
+      Script: {instanceID: 17478}
     - Class: 114
-      Script: {instanceID: 17986}
+      Script: {instanceID: 17774}
     - Class: 114
-      Script: {instanceID: 18200}
+      Script: {instanceID: 17988}
     - Class: 114
-      Script: {instanceID: 18442}
+      Script: {instanceID: 18202}
     - Class: 114
-      Script: {instanceID: 18632}
+      Script: {instanceID: 18444}
     - Class: 114
-      Script: {instanceID: 19042}
+      Script: {instanceID: 18634}
     - Class: 114
-      Script: {instanceID: 19048}
+      Script: {instanceID: 19044}
     - Class: 114
-      Script: {instanceID: 19214}
+      Script: {instanceID: 19050}
     - Class: 114
-      Script: {instanceID: 19238}
+      Script: {instanceID: 19216}
     - Class: 114
-      Script: {instanceID: 19352}
+      Script: {instanceID: 19240}
     - Class: 114
-      Script: {instanceID: 19614}
+      Script: {instanceID: 19354}
     - Class: 114
-      Script: {instanceID: 20034}
+      Script: {instanceID: 19616}
     - Class: 114
-      Script: {instanceID: 20294}
+      Script: {instanceID: 20036}
     - Class: 114
-      Script: {instanceID: 20310}
+      Script: {instanceID: 20296}
     - Class: 114
-      Script: {instanceID: 20344}
+      Script: {instanceID: 20312}
     - Class: 114
-      Script: {instanceID: 20370}
+      Script: {instanceID: 20346}
     - Class: 114
-      Script: {instanceID: 20640}
+      Script: {instanceID: 20372}
     - Class: 114
-      Script: {instanceID: 20720}
+      Script: {instanceID: 20642}
     - Class: 114
-      Script: {instanceID: 20762}
+      Script: {instanceID: 20722}
     - Class: 114
-      Script: {instanceID: 21102}
+      Script: {instanceID: 20764}
     - Class: 114
-      Script: {instanceID: 21426}
+      Script: {instanceID: 21104}
     - Class: 114
-      Script: {instanceID: 21434}
+      Script: {instanceID: 21428}
     - Class: 114
-      Script: {instanceID: 21926}
+      Script: {instanceID: 21436}
     - Class: 114
-      Script: {instanceID: 22032}
+      Script: {instanceID: 21928}
     - Class: 114
-      Script: {instanceID: 22548}
+      Script: {instanceID: 22034}
     - Class: 114
-      Script: {instanceID: 22904}
+      Script: {instanceID: 22550}
     - Class: 114
-      Script: {instanceID: 23032}
+      Script: {instanceID: 22908}
     - Class: 114
-      Script: {instanceID: 23334}
+      Script: {instanceID: 23036}
     - Class: 114
-      Script: {instanceID: 34448}
+      Script: {instanceID: 23338}
+    - Class: 114
+      Script: {instanceID: 31532}
+    - Class: 114
+      Script: {instanceID: 49508}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -510,6 +520,12 @@ ScriptsOnlyBuild:
     assemblyName: PhotonUnityNetworking.Demos
     namespaceName: Photon.Pun.Demo.Cockpit
     className: CurrentRoomIsOpenToggle
+  - hash:
+      serializedVersion: 2
+      Hash: bfc81dd69c12afd62de26514133fb65b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: WeaponSwitcher
   - hash:
       serializedVersion: 2
       Hash: 48a3515f4b6da46c63b268dc5abd81fb
@@ -824,7 +840,7 @@ ScriptsOnlyBuild:
     className: PlayerQuitHandler
   - hash:
       serializedVersion: 2
-      Hash: f1e1c1ca95800cabfbd9ceb2e397754c
+      Hash: 7437b8786d11e0b0853d3ddef117c467
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: Weapon
@@ -2208,8 +2224,13 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: b1a4140691c8b0b48baa82e7ccde67ac
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Weapon2
   platform: 19
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: G:/Pro/SpongeBob-Riot In The City/GameVersion2/SpongeBob-Riot In The
-    City.exe
+  playerPath: F:/Perov/version3/GameVersion3-1/SpongeBob-Riot In The City.exe
