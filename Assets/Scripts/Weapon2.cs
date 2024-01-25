@@ -21,6 +21,7 @@ public class Weapon2 : MonoBehaviour
 
     [Header("VFX")]
     public GameObject hitVFX;
+    public GameObject flashVFX ;
 
     [Header("UI")]
     public TextMeshProUGUI magText;
@@ -30,6 +31,11 @@ public class Weapon2 : MonoBehaviour
     [Header("Animation")]
     public Animation animation;
     public AnimationClip reload2;
+
+    [Header("SFX")]
+
+    AudioSource audioClip;
+    public AudioSource audiosource,audiosource2;
 
 
     [Header("Recoil Settings")]
@@ -61,6 +67,8 @@ public class Weapon2 : MonoBehaviour
 
         recoilLenght =  0;
         recoverLenght =  1 / fireRate * recoverPercent;
+
+        audioClip=GetComponent<AudioSource>();
     }
     // Update is called once per frame
     void Update()
@@ -98,6 +106,10 @@ public class Weapon2 : MonoBehaviour
     void Reload(){
 
         animation.Play(reload2.name);
+        
+        audioClip=audiosource;
+        audioClip.Play();
+
 
 
         if (mag > 0) {
@@ -115,12 +127,16 @@ public class Weapon2 : MonoBehaviour
         recoiling = true;
         recovering = false;
 
+        audioClip=audiosource2;
+        audioClip.Play();
+
         Ray ray = new Ray(camera.transform.position,camera.transform.forward);
 
         RaycastHit hit;
 
         if (Physics.Raycast(ray.origin, ray.direction, out hit, 100f)) {
             PhotonNetwork.Instantiate(hitVFX.name,hit.point,Quaternion.identity);
+            PhotonNetwork.Instantiate(flashVFX.name,hit.point,Quaternion.identity);
             if (hit.transform.gameObject.GetComponent<Health>()) {
                 hit.transform.gameObject.GetComponent<PhotonView>().RPC("TakeDamage", RpcTarget.All,damage);
             }

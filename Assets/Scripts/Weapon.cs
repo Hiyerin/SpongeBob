@@ -14,6 +14,9 @@ public class Weapon : MonoBehaviour
 
     private float nextFire;
 
+    
+
+
     [Header("Ammo")]
     public int mag = 5;
     public int ammo = 30;
@@ -21,6 +24,7 @@ public class Weapon : MonoBehaviour
 
     [Header("VFX")]
     public GameObject hitVFX;
+    public GameObject flashVFX ;
 
     [Header("UI")]
     public TextMeshProUGUI magText;
@@ -31,6 +35,11 @@ public class Weapon : MonoBehaviour
     public Animation animation;
     public AnimationClip reload;
 
+    AudioSource audioClip;
+
+    [Header("SFX")]
+    public AudioSource audiosource,audiosource2;
+    
 
     [Header("Recoil Settings")]
     // [Range(0,1)]
@@ -53,6 +62,8 @@ public class Weapon : MonoBehaviour
     private bool recovering;
 
 
+
+
     void Start() {
          magText.text = mag.ToString();
          ammoText.text = ammo + "/" + magAmmo;
@@ -61,6 +72,15 @@ public class Weapon : MonoBehaviour
 
         recoilLenght =  0;
         recoverLenght =  1 / fireRate * recoverPercent;
+
+        audioClip=GetComponent<AudioSource>();
+
+
+        
+
+
+
+
     }
     // Update is called once per frame
     void Update()
@@ -78,6 +98,7 @@ public class Weapon : MonoBehaviour
          ammoText.text = ammo + "/" + magAmmo;
 
             Fire();
+
         }
 
         if (Input.GetKeyDown(KeyCode.R)) {
@@ -93,11 +114,15 @@ public class Weapon : MonoBehaviour
             Recovering();
         }
 
+       
+
     }
 
     void Reload(){
 
         animation.Play(reload.name);
+        audioClip=audiosource;
+        audioClip.Play();
 
 
         if (mag > 0) {
@@ -115,16 +140,27 @@ public class Weapon : MonoBehaviour
         recoiling = true;
         recovering = false;
 
+        audioClip=audiosource2;
+        audioClip.Play();
+
         Ray ray = new Ray(camera.transform.position,camera.transform.forward);
+        
 
         RaycastHit hit;
 
+
         if (Physics.Raycast(ray.origin, ray.direction, out hit, 100f)) {
             PhotonNetwork.Instantiate(hitVFX.name,hit.point,Quaternion.identity);
+            PhotonNetwork.Instantiate(flashVFX.name,hit.point,Quaternion.identity);
             if (hit.transform.gameObject.GetComponent<Health>()) {
                 hit.transform.gameObject.GetComponent<PhotonView>().RPC("TakeDamage", RpcTarget.All,damage);
             }
+
         }
+
+   
+
+
     }
 
 
@@ -147,4 +183,10 @@ public class Weapon : MonoBehaviour
             recovering = false;
         }
     }
+
+    
+
+
+    
+
 }

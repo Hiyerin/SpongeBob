@@ -4,9 +4,12 @@ MonoImporter:
   externalObjects: {}
   serializedVersion: 2
   defaultReferences:
-  - player: {fileID: 1312871747258907122, guid: 3cea9b99161661b4bb867f37c5c91c89, type: 3}
+  - player: {fileID: 5068267242001530643, guid: 614547cc8475b9e43989097cc3a9cadd, type: 3}
+  - audiosource: {instanceID: 0}
   - spawnPoint: {instanceID: 0}
-  - roomCam: {instanceID: 0}
+  - roomCam: {fileID: 1806678233540610496, guid: de254eab238eecf488902b4e17540ba0, type: 3}
+  - nameUI: {fileID: 3870592955195694702, guid: 7d7e88eb52737164f9897fc0de710975, type: 3}
+  - connectingUI: {fileID: 7291705089109876402, guid: 52a34afe9ed404646836751422693eb1, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
