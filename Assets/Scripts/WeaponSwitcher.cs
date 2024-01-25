@@ -36,16 +36,7 @@ public class WeaponSwitcher : MonoBehaviour
             selectedWeapon=1;  
         }
 
-        //if (Input.GetAxis("Mouse Scrollwheel") >0) {
-
-            //if (selectedWeapon >= transform.childCount-1){selectedWeapon= 0;}
-            //else{   selectedWeapon +=1; }  }
-
-
-        //if (Input.GetAxis("Mouse Scrollwheel") <0) {
-
-            //if (selectedWeapon <= transform.childCount-1){selectedWeapon=0; } else{ selectedWeapon -=1; } }
-
+        
 
 
         if (previousSelectedtWeapon != selectedWeapon){

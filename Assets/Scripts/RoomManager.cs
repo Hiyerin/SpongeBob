@@ -8,6 +8,7 @@ public class RoomManager : MonoBehaviourPunCallbacks
     public static RoomManager instance;
     public GameObject player;
 
+
     [Header("BackgroundSound")]
     public AudioSource audiosource;
 
@@ -47,13 +48,15 @@ public class RoomManager : MonoBehaviourPunCallbacks
 
         Debug.Log("We're Connected and in a room now!");
 
-        Invoke("PhotonInit", 4);
+        Invoke("PhotonInit", 3);
     }
 
     void PhotonInit() {
 
        roomCam.SetActive(false);
        GameObject _player = PhotonNetwork.Instantiate (player.name, spawnPoint.position,Quaternion.identity);
+       
+
 
        _player.GetComponent<PlayerSetup>().IsLocalPlayer();
         audiosource.Play();
@@ -62,6 +65,7 @@ public class RoomManager : MonoBehaviourPunCallbacks
 
     public void RespawnPlayer() {
         GameObject _player = PhotonNetwork.Instantiate (player.name, spawnPoint.position,Quaternion.identity);
+        
 
         _player.GetComponent<PlayerSetup>().IsLocalPlayer();
 

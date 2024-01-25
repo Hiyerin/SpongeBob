@@ -42,8 +42,7 @@ public class Weapon : MonoBehaviour
     
 
     [Header("Recoil Settings")]
-    // [Range(0,1)]
-    // public float recoilPercant = 0.3f;
+    
 
     [Range(0,2)]
     public float recoverPercent = 0.7f;
@@ -147,12 +146,21 @@ public class Weapon : MonoBehaviour
         
 
         RaycastHit hit;
+        EnemyHealth enemyhealth;
 
 
         if (Physics.Raycast(ray.origin, ray.direction, out hit, 100f)) {
+
+            if(hit.transform.tag=="Enemy"){
+                enemyhealth=hit.transform.GetComponent<EnemyHealth>();
+                enemyhealth.health--;
+                Debug.Log(enemyhealth.health);
+            }
+
+
             PhotonNetwork.Instantiate(hitVFX.name,hit.point,Quaternion.identity);
             PhotonNetwork.Instantiate(flashVFX.name,hit.point,Quaternion.identity);
-            if (hit.transform.gameObject.GetComponent<Health>()) {
+            if (hit.transform.gameObject.GetComponent<PlayerHealth>()) {
                 hit.transform.gameObject.GetComponent<PhotonView>().RPC("TakeDamage", RpcTarget.All,damage);
             }
 

@@ -137,7 +137,7 @@ public class Weapon2 : MonoBehaviour
         if (Physics.Raycast(ray.origin, ray.direction, out hit, 100f)) {
             PhotonNetwork.Instantiate(hitVFX.name,hit.point,Quaternion.identity);
             PhotonNetwork.Instantiate(flashVFX.name,hit.point,Quaternion.identity);
-            if (hit.transform.gameObject.GetComponent<Health>()) {
+            if (hit.transform.gameObject.GetComponent<PlayerHealth>()) {
                 hit.transform.gameObject.GetComponent<PhotonView>().RPC("TakeDamage", RpcTarget.All,damage);
             }
         }
