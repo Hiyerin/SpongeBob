@@ -4,7 +4,7 @@ using Photon.Pun;
 using TMPro;
 using UnityEngine;
 
-public class Weapon : MonoBehaviour
+public class Weapon2 : MonoBehaviour
 {
     public int damage;
 
@@ -29,7 +29,7 @@ public class Weapon : MonoBehaviour
 
     [Header("Animation")]
     public Animation animation;
-    public AnimationClip reload;
+    public AnimationClip reload2;
 
 
     [Header("Recoil Settings")]
@@ -97,7 +97,7 @@ public class Weapon : MonoBehaviour
 
     void Reload(){
 
-        animation.Play(reload.name);
+        animation.Play(reload2.name);
 
 
         if (mag > 0) {
